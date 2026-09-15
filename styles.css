@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+}
