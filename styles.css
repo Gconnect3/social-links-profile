@@ -14,3 +14,44 @@ html {
     --Grey700: hsl(0, 0%, 20%);
     --Grey800: hsl(0, 0%, 12%);
 }
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    color: var(--white);
+    line-height: 150%;
+}
+
+.page{
+    min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--Grey800)
+}
+
+li {
+    list-style: none;
+}
+.card {
+    background-color: var(--Grey700);
+    min-width: 38.5rem;
+    padding: 4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__content{
+    padding: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__content--image{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
