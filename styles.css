@@ -90,33 +90,20 @@ li {
         justify-content: center;
         align-items: center;
         max-width: 30rem;
-        min-width: 20rem;
+        min-width: 25rem;
         width: 100%;
         min-height: 4.6rem;
         border-radius: 0.8rem;
-        background-color: #333333;
-        color: #ffffff;
+        color: var(--white);
         font-size: 1.4rem;
         font-weight: 700;
+        text-decoration: none;
         background-color: var(--Grey800);
         transition: background-color 0.2s ease, color 0.2s ease;
 }
 .card__socials--social:hover{
     background-color: var(--green);
-    cursor: pointer;
-    color: var(--Grey800)
-}
-
-li {
-    width: 100%;
-    max-width: 300px;
-}
-
-li a{
-text-decoration: none;
-color: var(--white)
-}
-
-li a:hover{
-    color: var(--Grey800)
+    text-decoration: none;
+    color: var(--Grey700);
+    transition: color 0.3s ease;
 }
