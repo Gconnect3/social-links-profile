@@ -111,3 +111,12 @@ li {
     width: 100%;
     max-width: 300px;
 }
+
+li a{
+text-decoration: none;
+color: var(--white)
+}
+
+li a:hover{
+    color: var(--Grey800)
+}
